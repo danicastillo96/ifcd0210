@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemasolar SYSTEM "sistemasolar.dtd">
+
+
+<sistemasolar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="sistemasolar.xsd">
+	<cuerpos>
+		<planeta>Mercurio</planeta>
+	</cuerpos>
+	<satelite>
+	<luna>NO</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Venus</planeta>
+	</cuerpos>
+	<satelite>
+	<luna>NO</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Tierra</planeta>
+	</cuerpos>
+	<satelite>
+	<luna>SI</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Marte</planeta>
+	</cuerpos>
+	<satelite>
+		<luna>NO</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Júpiter</planeta>
+	</cuerpos>
+	<satelite>
+		<luna>SI</luna>
+	</satelite>
+		<cuerpos>
+		<planeta>Saturno</planeta>
+	</cuerpos>
+	<satelite>
+		<luna>SI</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Urano</planeta>
+	</cuerpos>
+	<satelite>
+		<luna>SI</luna>
+	</satelite>
+	<cuerpos>
+		<planeta>Neptuno</planeta>
+	</cuerpos>
+	<satelite>
+		<luna>SI</luna>
+	</satelite>
+</sistemasolar>
+
+

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  	<link rel="stylesheet" type="text/css" href="css/planetario.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+	  <header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DaniCastillo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Planetas <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="planetario.html">Planetario</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="formulario.html">Formulario</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	  
+	  </header>
+
+	 
+
+<input type="checkbox" name="boton" id="boton-1" class="btn-vacio"> 
+
+<label for="boton-1" class="boton boton-1">
+  <i class="fas fa-power-off"></i>
+</label>
+
+<!-- --------------------- -->
+
+<input type="radio" name="boton-sol" id="cerrar-card-sol" class="cerrar-card">
+<input type="radio" name="boton-sol" id="abrir-card-sol" class="activar-card">
+
+<input type="radio" name="boton-mercurio" id="cerrar-card-mercurio" class="cerrar-card">
+<input type="radio" name="boton-mercurio" id="abrir-card-mercurio" class="activar-card">
+
+<input type="radio" name="boton-venus" id="cerrar-card-venus" class="cerrar-card">
+<input type="radio" name="boton-venus" id="abrir-card-venus" class="activar-card">
+
+<input type="radio" name="boton-tierra" id="cerrar-card-tierra" class="cerrar-card">
+<input type="radio" name="boton-tierra" id="abrir-card-tierra" class="activar-card">
+
+<input type="radio" name="boton-marte" id="cerrar-card-marte" class="cerrar-card">
+<input type="radio" name="boton-marte" id="abrir-card-marte" class="activar-card">
+
+<input type="radio" name="boton-jupiter" id="cerrar-card-jupiter" class="cerrar-card">
+<input type="radio" name="boton-jupiter" id="abrir-card-jupiter" class="activar-card">
+
+<input type="radio" name="boton-saturno" id="cerrar-card-saturno" class="cerrar-card">
+<input type="radio" name="boton-saturno" id="abrir-card-saturno" class="activar-card">
+
+<input type="radio" name="boton-urano" id="cerrar-card-urano" class="cerrar-card">
+<input type="radio" name="boton-urano" id="abrir-card-urano" class="activar-card">
+
+<input type="radio" name="boton-neptuno" id="cerrar-card-neptuno" class="cerrar-card">
+<input type="radio" name="boton-neptuno" id="abrir-card-neptuno" class="activar-card">
+
+<input type="radio" name="boton-pluton" id="cerrar-card-pluton" class="cerrar-card">
+<input type="radio" name="boton-pluton" id="abrir-card-pluton" class="activar-card">
+
+<!-- --------------------- -->
+<!-- ----sistema solar------ -->
+<!-- --------------------- -->
+
+<div class="sistema-solar">
+  <div class="linea-guia linea-guia-1"></div>
+  <div class="linea-guia linea-guia-2"></div>
+  <div class="linea-guia linea-guia-3"></div>
+  <div class="linea-guia linea-guia-4"></div>
+  <div class="linea-guia linea-guia-5"></div>
+  <div class="linea-guia linea-guia-6"></div>
+  <div class="linea-guia linea-guia-7"></div>
+  <div class="linea-guia linea-guia-8"></div>
+  <div class="linea-guia linea-guia-9"></div>
+  
+  <div class="sol objeto">
+    <label for="abrir-card-sol" class="link-planeta"></label>
+  </div>
+  
+  <div class="content-mercurio content-objeto">
+    <div class="mercurio objeto">
+      <label for="abrir-card-mercurio" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-venus  content-objeto">
+    <div class="venus objeto">
+      <label for="abrir-card-venus" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-tierra content-objeto">
+    <div class="tierra objeto">
+      <label for="abrir-card-tierra" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-marte content-objeto">
+    <div class="marte objeto">
+      <label for="abrir-card-marte" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-jupiter content-objeto">
+    <div class="jupiter objeto">      
+      <label for="abrir-card-jupiter" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-saturno content-objeto">
+    <div class="saturno objeto">
+      <label for="abrir-card-saturno" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-urano content-objeto">
+    <div class="urano objeto">
+      <label for="abrir-card-urano" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-neptuno content-objeto">
+    <div class="neptuno objeto">
+      <label for="abrir-card-neptuno" class="link-planeta"></label>
+    </div>
+  </div>
+  
+  <div class="content-pluton content-objeto">
+    <div class="pluton objeto">
+      <label for="abrir-card-pluton" class="link-planeta"></label>
+    </div>
+  </div>
+  
+</div>
+
+<!-- 
+.content-pluton.content-objeto>.pluton.objeto 
+-->
+
+<!-- -------------------- -->
+<!-- targetas info de plantas -->
+<!-- -------------------- -->
+
+<div class="c_c c_c-1">
+  <div class="card-sol content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Sol</h2>
+    </div>
+    <div class="info-sol info-planeta">
+      <p>El Sol es una estrella de tipo-G de la secuencia principal y clase de luminosidad V que se encuentra en el centro del sistema solar y constituye la mayor fuente de radiación electromagnética de este sistema planetario.​</p>
+    </div>
+    <div class="enlace-col enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Sol" target="_blank">Leer mas</a>
+      <label for="cerrar-card-sol">cerrar</label></a>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-2">
+  <div class="card-mercurio content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Mercurio</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño. Forma parte de los denominados planetas interiores o terrestres y carece de satélites naturales al igual que Venus.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-mercurio">cerrar</label></a>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-3">
+  <div class="card-venus content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Venus</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Venus es el segundo planeta del sistema solar en orden de distancia desde el Sol, el sexto en cuanto a tamaño, ordenados de mayor a menor. Al igual que Mercurio, carece de satélites naturales. </p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-venus">cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-4">
+  <div class="card-tierra content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Tierra</h2>
+    </div>
+    <div class="info-planeta">
+      <p>La Tierra es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Tierra" target="_blank">Leer mas</a>
+      <label for="cerrar-card-tierra">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-5">
+  <div class="card-marte content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Marte</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. Tambien es conocido como el Planeta Rojo.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-marte">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-6">
+  <div class="card-jupiter content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Jupiter</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Júpiter es el quinto planeta del sistema solar. Forma parte de los denominados planetas exteriores o gaseosos. Recibe su nombre del dios romano Júpiter. Se trata del planeta que ofrece un mayor brillo a lo largo del año dependiendo de su fase.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-jupiter">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-7">
+  <div class="card-saturno content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Saturno</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Saturno es el sexto planeta del sistema solar, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde nuestro planeta. Su nombre proviene del dios romano Saturno.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-saturno">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-8">
+  <div class="card-urano content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Urano</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo. Se llama así en honor de la divinidad griega del cielo Urano, el padre de Crono y el abuelo de Zeus.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Urano_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-urano">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-9">
+  <div class="card-neptuno content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Neptuno</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma parte de los denominados planetas exteriores o gigantes gaseosos, y es el primero que fue descubierto gracias a predicciones matemáticas.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-neptuno">Cerrar</label>
+    </div>
+  </div>
+</div>
+
+<div class="c_c c_c-10">
+  <div class="card-pluton content-card">
+    <div class="img-planeta">
+      <h2 class="title-planeta">Pluton</h2>
+    </div>
+    <div class="info-planeta">
+      <p>Plutón, designado 134340 Pluto, es un planeta enano del sistema solar situado a continuación de la órbita de Neptuno. Su nombre se debe al dios mitológico romano Plutón.</p>
+    </div>
+    <div class="enlaces-planetas">
+      <a href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)" target="_blank">Leer mas</a>
+      <label for="cerrar-card-pluton">Cerrar</label>
+    </div>
+  </div>
+</div>
+	  <body>
+
+
+	   </body>
+</html>
