@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/run.css">	
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+</head>
+<body>
+	 <header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DaniCastillo</a>
+  
+    <span class="navbar-toggler-icon"></span>
+ 
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Planetas <span class="sr-only"></span></a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="formulario.html">Formulario</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tupeso.html">TuPeso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reproductor mp3.html">Reproductor</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="run.html">RunBoy</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
+      </header>
+      <center>
+	<div class="options">
+	<button onclick="charAction('stand')" title="Stand"><i class="zmdi zmdi-male">stop </i> </button>
+	<button onclick="charAction('walk')" title="Walk"><i class="zmdi zmdi-walk">andar</i> </button>
+	<button onclick="charAction('run')" title="Run"><i class="zmdi zmdi-run">correr</i> </button>
+	<button onclick="charAction('crouch')" title="Crouch"> <i class="zmdi zmdi-trending-down">agachar</i></button>
+	<button onclick="charAction('jump')" title="Jump"><i class="zmdi zmdi-trending-up">saltar</i> </button>
+
+			
+	
+</div>
+
+<div class="char-wrap">
+	<div class="char-svg"></div>
+	
+</div>
+</center>
+<script type="text/javascript" src="js/run.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+
+body{
+    background: #0B1C22;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+}
+
+table {
+	margin-top: 70px;
+
+	width: 100%;
+	text-align: center;
+  border-collapse: collapse;
+}
+
+img{
+	width:50px;
+}
+form{
+	margin-top: 70px;
+}
+
+td{
+	background-color: lightblue;
+}
+
+

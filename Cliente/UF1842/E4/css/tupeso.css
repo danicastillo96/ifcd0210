@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+
+body{
+    background: #0B1C22;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+}
+.container{
+    margin-top: 8%;
+}
+.planets .mars .planet{
+    background: #C25447;
+    box-shadow: inset -30px -30px 0px #bf4d3f;
+
+}
+.planets .neptune .planet{
+    background: #4420B7;
+    box-shadow: inset -30px -30px 0px #36198F;
+
+}
+.planet {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+}
+.planets .mars .planet:before{
+    background: #b4483c;
+}
+.planets .neptune .planet:before{
+    background: #241160;
+}
+.planets .mars .planet:after{
+    background: #b84a3d;
+}
+.mars{
+    margin-bottom: 20px;
+}
+.planets .neptune .planet:after{
+    background: #241160;
+}
+.planet:before {
+    content: '';
+    border-radius: 100%;
+    width: 12%;
+    height: 12%;
+    display: block;
+    margin: 10% 30%;
+    position: absolute;
+}
+.planet:after {
+    content: '';
+    border-radius: 100%;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 50% 35%;
+    position: absolute;
+}
+
+span{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 993px){
+    .planet {
+        width: 100px;
+        height: 100px;
+    }
+    h4{
+        font-size: 14px !important;
+    }
+    .planet:after{
+        width: 20%;
+        height: 20%;
+        margin: 46% 23%;
+    }
+    .planets .neptune .planet{
+        box-shadow:  inset -15px -10px 0px #36198F;
+    }    
+    .planets .mars .planet{
+        box-shadow:  inset -15px -10px 0px #bf4d3f;
+    }
+}

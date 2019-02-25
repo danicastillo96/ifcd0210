@@ -1,0 +1,98 @@
+html {
+	height: 100%;
+}
+body { 
+	background-color: #148ddb;
+	background-image: url(http://dualmonitorswallpaper.com/wp-content/uploads/2018/03/backgrounds-1980x1080-arcade-pixle-4.png);
+	background-size: cover;
+	background-repeat-y: no-repeat; 
+}
+
+.options { 
+	margin-top: 70px;
+	text-align: center; 
+}
+
+.options a,
+		.options button { 
+		    border-radius: 20%;
+		    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		    padding: 6px 10px;
+		    background: rgba(244, 67, 54, 0.8);
+		    border: none;
+		    color: white;
+		    font-size: 14px;
+		    vertical-align: middle;
+		}
+
+		.options button:focus { 
+			background-color: #F44336; 
+		}
+
+	
+
+.char-wrap {
+	width: 32px;
+	position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.char-svg {
+	height: 64px;
+    width: 32px;
+    background-image: url(https://dl.dropbox.com/s/gup87pb8b7rvmd7/sprite-color.svg);
+    background-repeat: no-repeat;
+    background-size: 450px 341px; /*Very Important*/
+    animation: stand .8s steps(4) infinite;
+    /*transform: scale(1.3);*/
+}
+
+.char-svg.walk {
+    animation: walk 0.5s steps(6) infinite;
+}
+
+.char-svg.run {
+    animation: run 0.01s steps(6) infinite;
+}
+
+.char-svg.crouch {
+    animation: crouch 1s steps(2) infinite;
+}
+
+.char-svg.jump {
+	height: 82px;
+    animation: jump 0.5s steps(6) infinite;
+}
+
+
+/*** Character animations ***/
+@keyframes play {
+  	from { background-position: -14px -84px; }
+		to { background-position: -440px -84px; }
+}
+
+@keyframes stand {
+  	from { background-position: -20px -10px; }
+		to { background-position: -152px -10px; }
+}
+
+@keyframes walk {
+  	from { background-position: -14px -84px; }
+		to { background-position: -224px -84px; }
+}
+
+@keyframes run {
+  	from { background-position: -228px -84px; }
+		to { background-position: -436px -84px; }
+}
+
+@keyframes crouch {
+  	from { background-position: -290px -10px }
+		to { background-position: -365px -10px }
+}
+
+@keyframes jump {
+  	from { background-position: -14px -220px }
+		to { background-position: -224px -220px }
+}

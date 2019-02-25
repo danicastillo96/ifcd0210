@@ -1,0 +1,5 @@
+<!ELEMENT sistemasolar (cuerpos, satelite)+>
+<!ELEMENT cuerpos (planeta)>
+<!ELEMENT planeta (#PCDATA)>
+<!ELEMENT satelite (luna)>
+<!ELEMENT luna (#PCDATA)>
