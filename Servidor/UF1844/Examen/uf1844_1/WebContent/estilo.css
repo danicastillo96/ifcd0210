@@ -1,0 +1,29 @@
+body{
+	background-color:lightblue;
+}
+form{
+	
+	color:black;
+	text-align:left;
+	margin-left:10%;
+	
+	
+}
+#pepe{
+	heigth:500px;
+	width:500px;
+	background-color:white;
+	margin:auto;
+	border-radius:5%;
+}
+#pepa{
+	heigth:500px;
+	width:500px;
+	background-color:white;
+	margin:auto;
+	
+	
+}
+p{
+	margin-left:10%;
+}
